@@ -1,0 +1,133 @@
+Q.1 Explain the difference between frontend, backend, and full-stack development with suitable real-world examples?
+Ans. 
+Frontend: The part users see and interact with, built using HTML, CSS, and JavaScript.
+Example: The product page and buttons on Amazon.
+
+Backend: The server-side that manages data and logic using languages like Node.js or Python.
+Example: Saving items to your Amazon cart.
+
+Full-Stack: Works on both frontend and backend.
+Example: A developer handling both the Amazon interface and order system.
+                            *------------------------------------------------------------------*
+
+Q.2 Create a simple diagram showing how the client-server model works in web architecture?
+Ans.
+          ┌────────────────────┐
+          │      Client        │
+          │ (Web Browser/App)  │
+          └────────┬───────────┘
+                   │  Request (HTTP)
+                   ▼
+          ┌────────────────────┐
+          │      Server        │
+          │ (Backend Logic)    │
+          └────────┬───────────┘
+                   │  Database Query
+                   ▼
+          ┌────────────────────┐
+          │     Database       │
+          │ (Stores Data)      │
+          └────────┬───────────┘
+                   │  Response (Data)
+                   ▼
+          ┌────────────────────┐
+          │      Client        │
+          │ (Displays Result)  │
+          └────────────────────┘
+                             *------------------------------------------------------------------*
+
+Q.3 Describe how a browser requests and displays a web page from a web server?
+Ans.
+When you enter a website URL, the browser sends an "HTTP request" to the web server. The server processes the request, retrieves the required files (HTML, CSS, JavaScript), and sends them back. The browser then "renders"" these files to display the web page on your screen.
+
+                             *------------------------------------------------------------------*
+
+Q.4 Identify and list the tools required to set up a web development environment? Explain the purpose of each!
+Ans.
+Code Editor (e.g., VS Code): Used to write and edit code efficiently.
+Web Browser (e.g., Chrome): To test and preview web pages.
+Version Control (e.g., Git): Tracks code changes and manages versions.
+Package Manager (e.g., npm): Installs and manages libraries or dependencies.
+Local Server (e.g., XAMPP, Node.js): Runs and tests web applications locally.
+Frameworks/Libraries (e.g., React, Bootstrap): Speeds up design and development.
+
+                            *------------------------------------------------------------------*
+
+Q.5 Explain what a web server is and give examples of commonly used servers.
+Ans.
+A web server is software that stores, processes, and delivers web pages to users when they request them through a browser. It handles HTTP requests and responses between the client and server.
+Examples: Apache, Nginx.
+
+                            *------------------------------------------------------------------*
+
+Q.6 Define the roles of a frontend developer, backend developer, and database administrator in a project.
+Ans.
+Frontend Developer: Designs and builds the user interface using HTML, CSS, and JavaScript to ensure a good user experience.
+Backend Developer: Manages server logic, APIs, and data handling to make the website function properly.
+Database Administrator (DBA): Maintains, secures, and optimizes the database to ensure efficient data storage and access.
+
+                            *------------------------------------------------------------------*
+
+Q.7 Install VS Code and configure it for HTML, CSS, and JavaScript development. Take a screenshot of the setup.
+Ans. ./Ans.7
+
+                            *------------------------------------------------------------------*
+
+Q.8 Explain the difference between static and dynamic websites. Provide an example of each.
+Ans.
+Static Website:
+A static website has fixed content that doesn't change unless manually updated. It's built using HTML, CSS, and sometimes JavaScript.
+Example: A company's portfolio website or a personal resume site.
+Dynamic Website:
+A dynamic website generates content on-the-fly based on user interaction or database data. It uses backend technologies like PHP, Node.js, or Python.
+Example: Facebook or Amazon, where content changes based on the user.
+
+                            *------------------------------------------------------------------*
+
+Q.9 Research and list five web browsers. Explain how rendering engines differ between them.
+Ans. 
+Five Popular Web Browsers:
+Google Chrome
+Mozilla Firefox
+Microsoft Edge
+Safari
+Opera
+
+Rendering Engine Differences:
+Google Chrome & Opera: Use Blink engine (fast, supports modern web standards).
+Mozilla Firefox: Uses Gecko engine (focus on flexibility and open-source standards).
+Microsoft Edge: Uses Blink (newer versions; older versions used EdgeHTML).
+Safari: Uses WebKit engine (optimized for Apple devices and energy efficiency).
+
+Different browsers use different engines to interpret HTML, CSS, and JS and display web pages, affecting performance and compatibility.
+
+                            *------------------------------------------------------------------*
+
+Q.10 Draw a labeled diagram showing the basic web architecture flow — client, server, database, and APIs.
+Ans.
+          ┌────────────────────┐
+          │      Client        │
+          │ (Browser/App)      │
+          └────────┬───────────┘
+                   │ HTTP Request
+                   ▼
+          ┌────────────────────┐
+          │      Server        │
+          │ (Backend Logic)    │
+          └───────┬─────┬──────┘
+                  │     │
+        ┌─────────┘     └─────────┐
+        ▼                         ▼
+┌──────────────┐           ┌──────────────┐
+│   Database   │           │     APIs     │
+│ (Stores Data)│           │ (External    │
+└──────────────┘           │  Services)   │
+                           └──────────────┘
+                  │ Response (Data/Results)
+                  ▼
+          ┌────────────────────┐
+          │      Client        │
+          │ (Displays Content) │
+          └────────────────────┘
+
+                             *------------------------------------------------------------------*
