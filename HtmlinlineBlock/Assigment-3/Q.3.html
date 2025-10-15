@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form structure</title>
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Student Information</legend>
+                
+                <label for="name">Name:</label>
+                <input type="text" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" required><br><br>
+
+                <label for="course">Select Course:</label>
+                <select name="course">
+                    <option value="webdev">Web Development</option>
+                    <option value="python">Python Programming</option>
+                    <option value="datascience">Data Science</option>
+                    <option value="java">Java Programming</option>
+                </select>
+            </fieldset>
+        </form>
+
+        <h2>Available Course Schedules</h2>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <th>Course</th>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Instructor</th>
+            </tr>
+            <tr>
+                <td>Web Development</td>
+                <td>Monday, Wednesday</td>
+                <td>10:00 AM - 12:00 PM</td>
+                <td>Mr. Goyal</td>
+            </tr>
+            <tr>
+                <td>Python Programming</td>
+                <td>Tuesday, Thursday</td>
+                <td>2:00 PM - 4:00 PM</td>
+                <td>Ms. Tiwari</td>
+            </tr>
+            <tr>
+                <td>Data Science</td>
+                <td>Monday, Friday</td>
+                <td>3:00 PM - 5:00 PM</td>
+                <td>Dr. Shukla</td>
+            </tr>
+            <tr>
+                <td>Java Programming</td>
+                <td>Wednesday, Friday</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>Mr. ojha</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
