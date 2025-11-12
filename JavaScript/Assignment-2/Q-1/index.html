@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scope Conflict Resolver</title>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #f2f5f9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        text-align: center;
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      button {
+        margin: 10px;
+        padding: 10px 15px;
+        border: none;
+        background: #4caf50;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      button:hover {
+        background: #388e3c;
+      }
+
+      #result {
+        margin-top: 15px;
+        font-size: 18px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Scope Conflict Resolver</h1>
+      <p><strong>Bonus:</strong> <span id="bonusValue"></span></p>
+      <button onclick="calculateSalary(true)">Permanent Employee</button>
+      <button onclick="calculateSalary(false)">Temporary Employee</button>
+      <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
